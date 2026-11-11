@@ -1,0 +1,5 @@
+# Keep personal exports and drafts out of the public repository.
+*backup*.json
+EAL-conference-comments*.csv
+*.xlsx
+.DS_Store
