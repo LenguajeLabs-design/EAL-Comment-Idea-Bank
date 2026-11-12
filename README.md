@@ -6,7 +6,7 @@ A customizable, browser-based comment builder for Grade 4 and Grade 5 parent con
 
 1. Select an alias: five Grade 4 students and six Grade 5 students are included.
 2. Choose Strengths, Growth, or Moving Forward, then select a language focus and a starting point.
-3. Personalize the wording, support level, and classroom example using your observations.
+3. Choose pronouns for the alias and whether statements start with the alias, “Your child,” or the selected pronoun. Personalize the wording, support level, and classroom example using your observations.
 4. Add the draft to the final comment and edit it as needed.
 5. Copy comments into a conference form or export all 11 aliases to CSV for a spreadsheet.
 
@@ -34,3 +34,7 @@ This repository and the published website are public. The app code and generic c
 For a local preview, run `python3 -m http.server 4183` from this folder, then open `http://localhost:4183`. You can also open `index.html` directly, although browser clipboard and storage support can vary for local files.
 
 Only select wording supported by observation. The builder does not infer proficiency, fabricate evidence, or claim improvement. Final comments stay unchanged until you explicitly add a working draft. Editing a final comment clears its reviewed status.
+
+## Pronouns
+
+Each alias can store She / her, He / him, They / them, or Not specified. Nothing is inferred from the alias. Selected pronoun starts new strength and growth comments when chosen under Sentence starts with; They uses plural verb agreement. Existing final comments and classroom examples are never rewritten when settings change. A check flags other pronouns in final text for review; those words may refer to a partner or another person, so the check is advisory. Pronouns are included in local backups and CSV exports. Backups from before this setting default to Not specified.
